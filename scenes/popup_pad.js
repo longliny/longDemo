@@ -21,7 +21,7 @@ export default class PopupPad extends Phaser.Scene {
     preload() { 
         this.load.scenePlugin({
             key: 'rexuiplugin',
-            url: '../rexuiplugin.min.js',
+            url: 'plugins/rexuiplugin.min.js',
             sceneKey: 'rexUI'
         });
     }
